@@ -1,0 +1,178 @@
+
+.menu{ 
+        border-color:#ffe6cc;
+        border-style:solid;
+
+        animation-name: menudropdown;
+        animation-duration: 2s;
+
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top:300px;
+        margin-bottom: 200px;
+
+        padding-bottom: 35px;
+        padding-left:7px;
+        padding-right:7px;
+        padding-top:5px;
+
+        text-decoration: none;
+        font-family:'Courier New', Courier, monospace;
+        font-size: large;
+        font-weight: bold;
+        color:#A9C4EB;
+        float: left;
+        height: 400px;
+        border-radius: 12px;  
+
+        background-color:#faf2eb;
+} 
+body {
+    background-color: #fff2e1;
+    }
+    
+@keyframes menudropdown{         
+    0%   {margin-top:50px}
+    100% {margin-top:300px;}
+    }
+
+.submenu{
+padding-left: 20px;
+}
+
+
+
+.menuItem{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: normal;
+    color: #ababf0;
+}
+
+.menuItem:hover{
+    color:#9673A6; 
+    font-size: medium;
+    transition: all 500ms;
+}
+
+.menucontact{
+
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight:bold;
+    color:#F8CECC;
+}
+
+.menucontact:hover{
+    color:#ecaba9; 
+    font-size: 21px;
+    transition:all 500ms;
+}
+
+.galleryImage
+{
+width:400px;
+margin: 25px;
+margin-top: 0px;
+border-radius:16px;
+animation-name: galleryfade;
+        animation-duration: 2s;
+}
+
+@keyframes galleryfade{
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+.gallery
+{
+    width: 1400px;
+    float:left;
+    }
+    
+.title
+{
+animation-name: galleryfade;
+animation-duration: 3s;
+
+text-align: center;
+text-decoration: none;
+font-family:'Courier New', Courier, monospace;
+font-size: 50px;
+font-weight:bold;
+color:#F8CECC;
+}
+
+.menuItemWork{
+    animation-name: galleryfade;
+animation-duration: 3s;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: normal;
+    color: #CCCCFF;
+    text-align: center;
+    font-weight: bold;
+}
+.textbook
+{
+text-align: center;
+text-decoration: none;
+font-family:'Courier New', Courier, monospace;
+font-size: large;
+font-weight: bold;
+color:#A9C4EB;
+}
+.bookillustrations
+{
+text-decoration: none;
+font-family:'Courier New', Courier, monospace;
+font-size: large;
+font-weight:normal;
+color:#F8CECC;
+}
+
+
+.profile
+{
+    animation-name: galleryfade;
+    animation-duration: 3s;
+
+    text-align: center;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+    color:#F8CECC;
+}
+.profileImage
+{
+    text-align:center;
+    border-color:#ffe6cc;
+        border-style:solid;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 50px;
+}
+.profiledesc
+{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight:bold;
+    color:#E5CCFF;
+    text-align: center;
+    width: 800px;
+    display:inline-block;
+    border-radius:16px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-color:#ffe6cc;
+    border-style:solid;
+}
+
